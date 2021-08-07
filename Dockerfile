@@ -1,5 +1,5 @@
 ###############################################################
-# Dockerfile to build container images for locusCompareR
+# Dockerfile to build container images for coloc and locusCompareR
 # Based on Debian, r-base 4.1.0
 ################################################################
 
