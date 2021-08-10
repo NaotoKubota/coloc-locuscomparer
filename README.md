@@ -2,7 +2,7 @@
 
 Docker container for colocalization analysis including,
 - [coloc](https://github.com/chr1swallace/coloc/)
-- [LocusCompare](https://github.com/boxiangliu/locuscomparer)
+- [LocusCompareR](https://github.com/boxiangliu/locuscomparer)
 
 ## how to build
 
