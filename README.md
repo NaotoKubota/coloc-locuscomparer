@@ -1,15 +1,26 @@
-# coloc-locuscomparer
+# Docker container for coloc and LocusCompareR
 
-Docker container for colocalization analysis including,
+Dockerfile for colocalization analysis including:
 - [coloc](https://github.com/chr1swallace/coloc/)
 - [LocusCompareR](https://github.com/boxiangliu/locuscomparer)
+
+It's on [dockerhub](https://hub.docker.com/r/naotokubota/coloc-locuscomparer) and [github](https://github.com/NaotoKubota/coloc-locuscomparer).
+
+## tags and links
+- `1.0` [(master/Dockerfile)](https://github.com/NaotoKubota/coloc-locuscomparer/blob/master/Dockerfile)
 
 ## how to build
 
 ```sh
+docker pull naotokubota/coloc-locuscomparer:1.0
+```
+
+or
+
+```sh
 git clone git@github.com:NaotoKubota/coloc-locuscomparer.git
 cd coloc-locuscomparer
-docker build --rm -t kubotter123/coloc-locuscomparer .
+docker build --rm -t naotokubota/coloc-locuscomparer:1.0 .
 ```
 
 ## running
