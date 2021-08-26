@@ -1,8 +1,8 @@
 # Docker container for coloc and LocusCompareR
 
 Dockerfile for colocalization analysis including:
-- [coloc](https://github.com/chr1swallace/coloc/)
-- [LocusCompareR](https://github.com/boxiangliu/locuscomparer)
+- [coloc](https://github.com/chr1swallace/coloc/) (v5.1.0)
+- [LocusCompareR](https://github.com/boxiangliu/locuscomparer) (v1.0.0)
 
 It's on [dockerhub](https://hub.docker.com/r/naotokubota/coloc-locuscomparer) and [github](https://github.com/NaotoKubota/coloc-locuscomparer).
 
